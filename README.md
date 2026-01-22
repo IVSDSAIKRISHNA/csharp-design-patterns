@@ -42,6 +42,7 @@ csharp-design-patterns/
 │   └─ DemoRunner.cs               # Optional runner for testing patterns
 ├─ Notes/                          # Notes, Word files, diagrams
 └─ README.md                       # You are here
+---
 ✅ Each pattern has its own folder with implementation and demo
 
 ✅ Demo classes help run and visualize the pattern in action
