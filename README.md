@@ -52,7 +52,7 @@ csharp-design-patterns/
 
 🛠️ Features / Patterns Included
 
-Creational Patterns 🌱
+## Creational Patterns 🌱
 Patterns that deal with object creation and help make your code flexible and reusable:
 
 Singleton 🏆 – Ensures a class has only one instance
@@ -65,7 +65,7 @@ Builder 🛠️ – Step-by-step construction of complex objects
 
 Prototype ⚡ – Creates objects by cloning existing instances
 
-Structural Patterns 🏛️
+## Structural Patterns 🏛️
 Patterns that deal with object composition to form larger structures:
 
 Adapter 🔌 – Converts one interface to another
@@ -78,7 +78,7 @@ Facade 🚪 – Simplifies access to a complex subsystem
 
 Composite 🌲 – Treats groups of objects uniformly
 
-Behavioral Patterns 🧠
+## Behavioral Patterns 🧠
 Patterns that deal with communication between objects and encapsulate behavior:
 
 Strategy 🎯 – Defines a family of algorithms, interchangeable at runtime
@@ -93,7 +93,7 @@ State 🔄 – Alters object behavior when its state changes
 
 Patterns will be continuously added as I explore more in-depth examples and real-world use cases.
 
-💡 How to Use / Explore
+## 💡 How to Use / Explore
 Clone the repository:
 
 git clone https://github.com/yourusername/csharp-design-patterns.git
@@ -110,7 +110,7 @@ Optional README.md for explanations per pattern
 (Optional) Use DemoRunner.cs to quickly test a pattern in isolation:
 
 DemoRunner.RunPattern("Singleton");
-📝 Notes & Documentation
+## 📝 Notes & Documentation
 Notes are stored in the Notes/ folder 🗂️
 
 Includes Word documents, diagrams, and reference materials
@@ -127,7 +127,7 @@ Example usage
 
 Real-world applications
 
-🌐 Why I Made This
+## 🌐 Why I Made This
 To strengthen my understanding of design patterns in C#
 
 To experiment with code implementations and see patterns in action
@@ -136,7 +136,7 @@ To create a reference library I can revisit anytime
 
 To document explanations, UML diagrams, and notes in one place
 
-🚀 Future Plans
+## 🚀 Future Plans
 Add more design patterns, including rarely-used ones
 
 Include full UML diagrams for each pattern
@@ -145,13 +145,13 @@ Add real-world examples and mini projects demonstrating patterns in action
 
 Explore modern .NET features in pattern implementations
 
-🖥️ Tech Stack
-Language: C# 11
+## 🖥️ Tech Stack
+Language: C# 12
 
-Framework: .NET 7
+Framework: .NET 8
 
-IDE: Visual Studio / JetBrains Rider
+IDE: Visual Studio 
 
-🤝 Contributions
+## 🤝 Contributions
 This is a personal repository, but contributions or suggestions are welcome!
 You can submit pull requests to suggest pattern improvements, better demos, or documentation.
