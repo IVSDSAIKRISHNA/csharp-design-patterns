@@ -20,7 +20,6 @@ This repository serves as a **living reference** for myself to revisit, practice
 
 ## 📂 Repository Structure
 
-```text
 csharp-design-patterns/
 │
 ├─ CSharpDesignPatterns.sln        # Main solution file
@@ -42,7 +41,7 @@ csharp-design-patterns/
 │   └─ DemoRunner.cs               # Optional runner for testing patterns
 ├─ Notes/                          # Notes, Word files, diagrams
 └─ README.md                       # You are here
----
+
 ✅ Each pattern has its own folder with implementation and demo
 
 ✅ Demo classes help run and visualize the pattern in action
