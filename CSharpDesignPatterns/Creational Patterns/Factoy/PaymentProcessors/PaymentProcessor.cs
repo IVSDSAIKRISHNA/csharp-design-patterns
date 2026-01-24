@@ -1,5 +1,4 @@
-﻿using System;
-namespace CSharpDesignPatterns.Creational_Patterns.Factoy;
+﻿namespace CSharpDesignPatterns.Creational_Patterns.Factoy;
 
 // Actual Factory Class
 public   abstract class PaymentProcessor
