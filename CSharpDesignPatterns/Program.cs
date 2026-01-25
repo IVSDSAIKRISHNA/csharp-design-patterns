@@ -1,7 +1,4 @@
-﻿using CSharpDesignPatterns.Creational_Patterns.Abstract_Factory;
-using CSharpDesignPatterns.Creational_Patterns.Factoy;
-
-namespace CSharpDesignPatterns;
+﻿namespace CSharpDesignPatterns;
 
 internal class Program
 {

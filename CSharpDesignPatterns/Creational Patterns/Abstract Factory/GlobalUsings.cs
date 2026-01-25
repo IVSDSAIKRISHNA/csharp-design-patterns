@@ -1,0 +1,3 @@
+﻿global using CSharpDesignPatterns.Creational_Patterns.Abstract_Factory.Interfaces;
+global using CSharpDesignPatterns.Creational_Patterns.Abstract_Factory.PaymentProcessors;
+global using CSharpDesignPatterns.Creational_Patterns.Abstract_Factory.Refund_Processors;

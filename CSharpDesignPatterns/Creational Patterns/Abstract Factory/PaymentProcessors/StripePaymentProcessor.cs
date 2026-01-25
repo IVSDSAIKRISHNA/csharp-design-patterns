@@ -1,6 +1,4 @@
-﻿using CSharpDesignPatterns.Creational_Patterns.Abstract_Factory.Interfaces;
-
-namespace CSharpDesignPatterns.Creational_Patterns.Abstract_Factory.PaymentProcessors;
+﻿namespace CSharpDesignPatterns.Creational_Patterns.Abstract_Factory.PaymentProcessors;
 
 public class StripePaymentProcessor : IPaymentProcessor
 {

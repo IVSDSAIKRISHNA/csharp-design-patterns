@@ -1,6 +1,4 @@
-﻿using CSharpDesignPatterns.Creational_Patterns.Abstract_Factory.Interfaces;
-
-namespace CSharpDesignPatterns.Creational_Patterns.Abstract_Factory.Refund_Processors;
+﻿namespace CSharpDesignPatterns.Creational_Patterns.Abstract_Factory.Refund_Processors;
 
 public class StripeRefundProcessor : IRefundProcessor
 {

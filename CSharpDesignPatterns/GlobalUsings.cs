@@ -1,0 +1,2 @@
+﻿global using CSharpDesignPatterns.Creational_Patterns.Abstract_Factory;
+global using CSharpDesignPatterns.Creational_Patterns.Factoy;

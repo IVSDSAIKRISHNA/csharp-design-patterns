@@ -1,7 +1,6 @@
-﻿using CSharpDesignPatterns.Creational_Patterns.Abstract_Factory.Interfaces;
+﻿namespace CSharpDesignPatterns.Creational_Patterns.Abstract_Factory.Services;
 
-namespace CSharpDesignPatterns.Creational_Patterns.Abstract_Factory.Services;
-
+// Client Code and Business Logic.
 public class CheckoutService
 {
     private IPaymentProcessor _processor;
