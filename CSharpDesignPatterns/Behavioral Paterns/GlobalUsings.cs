@@ -1,0 +1,2 @@
+﻿global using CSharpDesignPatterns.Behavioral_Paterns.Observer.Interfaces;
+global using CSharpDesignPatterns.Behavioral_Paterns.Observer.Observers;

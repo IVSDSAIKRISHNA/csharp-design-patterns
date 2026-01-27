@@ -1,6 +1,4 @@
-﻿using CSharpDesignPatterns.Creational_Patterns.Singleton;
-
-namespace CSharpDesignPatterns;
+﻿namespace CSharpDesignPatterns;
 
 internal class Program
 {
@@ -8,6 +6,7 @@ internal class Program
     {
         /*FactoryPaternDemo.TestFactoryPattern();*/
         /*AbstractFactoryDemo.TestAbstractFactoryPattern();*/
-        SingletonDemo.TestSingleton();
+        /*SingletonDemo.TestSingleton();*/
+        ObserverDemo.TestObserver();
     }
 }

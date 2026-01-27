@@ -1,2 +1,4 @@
 ﻿global using CSharpDesignPatterns.Creational_Patterns.Abstract_Factory;
 global using CSharpDesignPatterns.Creational_Patterns.Factoy;
+global using CSharpDesignPatterns.Behavioral_Paterns.Observer;
+global using CSharpDesignPatterns.Creational_Patterns.Singleton;
