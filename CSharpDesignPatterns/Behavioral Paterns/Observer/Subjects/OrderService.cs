@@ -1,6 +1,6 @@
 ﻿namespace CSharpDesignPatterns.Behavioral_Paterns.Observer.Observers;
 
-// Actual Subject Implementing the interface.
+// Actual Subject Implementing the  ISubject interface.
 public class OrderService : ISubject
 {
     private readonly List<IObserver> _observers = new List<IObserver>();
