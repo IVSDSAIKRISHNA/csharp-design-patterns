@@ -8,6 +8,8 @@ public class OrderBuilder
 
     private DateTime _createdOn { get; set; }
 
+    private ShippingAddressBuilder _shippingAddressBuilder { get; set; } = ShippingAddressBuilder.Empty();
+
     // Creating a new Order Builder.
     public static OrderBuilder Empty() => new();
 
@@ -29,8 +31,14 @@ public class OrderBuilder
         return this;
     }
 
+    public OrderBuilder WithShippingAddress( Action<ShippingAddressBuilder> builderDelegate)
+    {
+        builderDelegate(_shippingAddressBuilder);
+        return this;
+    }
+
     public Order Build()
     {
-        return new Order { Name = _name ?? "N/A", CreatedOn = _createdOn, Number = _number };
+        return new Order { Name = _name ?? "N/A", CreatedOn = _createdOn, Number = _number , ShippingAddress= _shippingAddressBuilder.Build()};
     }
 }
