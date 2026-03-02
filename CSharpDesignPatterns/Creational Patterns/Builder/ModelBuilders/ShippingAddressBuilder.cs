@@ -15,7 +15,7 @@ public class ShippingAddressBuilder
 
     public ShippingAddressBuilder WithStreet( string street)
     {
-        _state = street;
+        _street = street;
         return this;
     }
     public ShippingAddressBuilder WithCity(string city)

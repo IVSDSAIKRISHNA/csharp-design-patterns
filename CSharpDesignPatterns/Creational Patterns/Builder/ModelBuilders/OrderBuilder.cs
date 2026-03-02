@@ -31,9 +31,9 @@ public class OrderBuilder
         return this;
     }
 
-    public OrderBuilder WithShippingAddress( Action<ShippingAddressBuilder> builderDelegate)
+    public OrderBuilder WithShippingAddress( Action<ShippingAddressBuilder> action)
     {
-        builderDelegate(_shippingAddressBuilder);
+        action(_shippingAddressBuilder);
         return this;
     }
 
