@@ -42,7 +42,7 @@ public class ShippingAddressBuilder
 
     public ShippingAddress Build()
     {
-        return new ShippingAddress { Street = _street, City = _city, State = _state, PostalCode = _postalCode };
+        return new ShippingAddress { Street = _street, City = _city, State = _state, PostalCode = _postalCode, Country= _country };
     }
 
 }
