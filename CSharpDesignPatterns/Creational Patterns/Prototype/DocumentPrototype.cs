@@ -23,11 +23,11 @@ public class Document : IPrototype<Document>
             Title = this.Title,
             Author = new Author
             {
-                Name = this.Author?.Name
+                Name = this.Author?.Name ?? "John Doe",
             },
             Metadata = new Metadata
             {
-                CreatedDate = this.Metadata.CreatedDate
+                CreatedDate = this.Metadata?.CreatedDate ?? DateTime.UtcNow,
             }
         };
     }
@@ -35,8 +35,8 @@ public class Document : IPrototype<Document>
     public void Print()
     {
         Console.WriteLine($"Title: {Title}");
-        Console.WriteLine($"Author: {Author.Name}");
-        Console.WriteLine($"Created: {Metadata.CreatedDate}");
+        Console.WriteLine($"Author: {Author!.Name}");
+        Console.WriteLine($"Created: {Metadata?.CreatedDate ?? DateTime.UtcNow}");
         Console.WriteLine("-------------------");
     }
 }
