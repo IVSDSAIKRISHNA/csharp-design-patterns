@@ -15,7 +15,6 @@ public abstract  class InvoiceProcessor
 
         var amount = CalculateAmount(billId);
         var charges = CalculateCharges(amount);
-
         PrintInvoice(amount + charges);
     }
 

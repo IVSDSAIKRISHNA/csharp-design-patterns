@@ -1,7 +1,4 @@
-﻿using CSharpDesignPatterns.Behavioral_Paterns.Template_Method;
-using CSharpDesignPatterns.Creational_Patterns.Builder;
-
-namespace CSharpDesignPatterns;
+﻿namespace CSharpDesignPatterns;
 
 internal class Program
 {

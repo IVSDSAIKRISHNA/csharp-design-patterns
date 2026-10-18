@@ -2,15 +2,15 @@
 
 public static class TemplateDemo
 {
-    public static void CalculatePremiumCharges(int charges)
+    public static void CalculatePremiumCharges(int billID)
     {
         InvoiceProcessor premiumProcessor = new PremiumInvoiceProcessor();
-        premiumProcessor.ProcessInvoice(charges);
+        premiumProcessor.ProcessInvoice(billID);
     }
 
-    public static void CalculateStandardCharges(int charges)
+    public static void CalculateStandardCharges(int billID)
     {
         InvoiceProcessor standardProcessor = new StandardInvoiceProcessor();
-        standardProcessor.ProcessInvoice(charges);
+        standardProcessor.ProcessInvoice(billID);
     }
 }
