@@ -1,2 +1,3 @@
 ﻿global using CSharpDesignPatterns.Behavioral_Paterns.Observer.Interfaces;
 global using CSharpDesignPatterns.Behavioral_Paterns.Observer.Observers;
+global using CSharpDesignPatterns.Behavioral_Paterns.Template_Method.Processors;

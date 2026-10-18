@@ -1,4 +1,5 @@
-﻿using CSharpDesignPatterns.Creational_Patterns.Builder;
+﻿using CSharpDesignPatterns.Behavioral_Paterns.Template_Method;
+using CSharpDesignPatterns.Creational_Patterns.Builder;
 
 namespace CSharpDesignPatterns;
 
@@ -10,6 +11,9 @@ internal class Program
         /*AbstractFactoryDemo.TestAbstractFactoryPattern();*/
         /*SingletonDemo.TestSingleton();*/
         /*ObserverDemo.TestObserver();*/
-        BuilderDemo.TestOrderBuilder();
+        //BuilderDemo.TestOrderBuilder();
+
+        TemplateDemo.CalculateStandardCharges(100);
+        TemplateDemo.CalculatePremiumCharges(100);
     }
 }
